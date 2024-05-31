@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 use App\Models\posts;
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 // Route::get('/posts', function (){
 //     // dd($id);
 //     return view('posts.index' ,[
